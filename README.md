@@ -1,6 +1,16 @@
 <html>
 <head>
-<link rel="stylesheet" href="customizer.css">
+<!-- <link rel="stylesheet" href="D:\APP_Kotlin\PROJECT\Hoyomi_apk\colove\customizer.css"> -->
+<style>
+    .horizontal-list > li {
+        display: inline-block;
+        /* You can also add some margins here to make it look prettier */
+        margin-right: 20px;
+        zoom: 1;
+        *display: inline;
+        /* this fix is needed for IE7- */
+    }
+</style>
 </head>
 <body>
 
