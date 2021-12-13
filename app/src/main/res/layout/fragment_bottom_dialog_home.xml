@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="10dp"
+    tools:context=".Fragment_bottomDialog_home">
+
+    <View
+        android:id="@+id/home_bottomSheet_viewTop"
+        android:layout_width="50dp"
+        android:layout_height="5dp"
+
+        android:layout_marginTop="10dp"
+        android:background="@drawable/round_corner_all"
+        android:backgroundTint="@color/gray"
+        android:elevation="4dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/home_bottomSheet_line1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:background="@color/click_selector_default"
+
+        android:orientation="horizontal"
+
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/home_bottomSheet_viewTop">
+
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+
+            android:src="@drawable/ic_bookmark"
+            android:padding="2dp"
+            android:layout_marginStart="15dp"
+            />
+
+        <TextView
+            android:id="@+id/home_bottomSheet_txt_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="15dp"
+            android:backgroundTint="@color/white"
+
+            android:gravity="start|center"
+            android:text="@string/bottomdialog_addto_playlist"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/home_bottomSheet_line3"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/click_selector_default"
+
+        android:orientation="horizontal"
+
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/home_bottomSheet_line1">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+
+            android:src="@drawable/ic_info"
+            android:padding="2dp"
+            android:layout_marginStart="15dp"
+            />
+
+        <TextView
+            android:id="@+id/home_bottomSheet_txt_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="15dp"
+            android:backgroundTint="@color/white"
+
+            android:gravity="start|center"
+            android:text="@string/bottomdialog_information"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+
+            />
+
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

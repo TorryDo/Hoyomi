@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="green">#67E867</color>
+
+    <color name="white_gray">#f5f5f5</color>
+    <color name="gray">#e3e3e3</color>
+    <color name="main_color_lighter">#C0CFF8</color>
+    <color name="main_color">#9ab3f5</color>
+    <color name="main_color_darker">#6281D3</color>
+
+    <color name="dark_gray">#a6a9b6</color>
+
+    <color name="white_red">#F69C8C</color>
+    <color name="white_pink">#EEBAFA</color>
+    <color name="white_blue">#AFDBFD</color>
+    <color name="white_orange">#FDB2B2</color>
+    <color name="white_yellow">#FFDBAD</color>
+
+    <color name="light_blue_600">#FF039BE5</color>
+    <color name="light_blue_900">#FF01579B</color>
+    <color name="light_blue_A200">#FF40C4FF</color>
+    <color name="light_blue_A400">#FF00B0FF</color>
+    <color name="black_overlay">#66000000</color>
+
+    <color name="alert_red">#eb5757</color>
+    <color name="alert_red_lighter">#EC6464</color>
+    <color name="alert_green">#6fcf97</color>
+    <color name="alert_green_lighter">#8EEAB4</color>
+
+
+</resources>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "635619698066",
+    "firebase_url": "https://hoyomidb-default-rtdb.firebaseio.com",
+    "project_id": "hoyomidb",
+    "storage_bucket": "hoyomidb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:635619698066:android:e818bd1414983e7b4bcd4b",
+        "android_client_info": {
+          "package_name": "com.torrydo.hoyomi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "635619698066-c9in4niqroi058ctn6jg6lh9jbd7j21i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.torrydo.hoyomi",
+            "certificate_hash": "a86b898537c3e7958c7192aa10729596f57ccbaa"
+          }
+        },
+        {
+          "client_id": "635619698066-2hetkvpeuitr6jdtdvgdi9f6p8t2d6gk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDl9FyyPmYeNofuEDa0DkELiXVpSgDSDBg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "635619698066-2hetkvpeuitr6jdtdvgdi9f6p8t2d6gk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

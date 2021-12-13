@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".fragment.homeFragment">
+
+    <ProgressBar
+        android:id="@+id/home_progress"
+        style="@style/roundProgress"
+        android:layout_width="0dp"
+        android:layout_height="6dp"
+
+        android:layout_marginHorizontal="10dp"
+        android:max="950"
+        android:visibility="gone"
+
+        app:layout_constraintBottom_toBottomOf="@id/home_searchview"
+        app:layout_constraintEnd_toStartOf="@id/home_lottie_loadingVaporize"
+        app:layout_constraintStart_toEndOf="@id/home_searchview"
+        app:layout_constraintTop_toTopOf="@id/home_searchview" />
+
+
+    <ImageView
+        android:id="@+id/home_searchview"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+
+        android:layout_marginHorizontal="12dp"
+        android:layout_marginVertical="6dp"
+        android:background="@drawable/round_retangle"
+        android:src="@drawable/ic_search"
+        android:padding="13dp"
+
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/home_lottie_loadingVaporize"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+
+        android:layout_marginVertical="6dp"
+        android:layout_marginHorizontal="18dp"
+        android:background="@drawable/round_retangle"
+        android:src="@drawable/ic_refresh"
+        android:padding="14dp"
+
+        app:layout_constraintTop_toTopOf="@id/home_searchview"
+        app:layout_constraintBottom_toBottomOf="@id/home_searchview"
+        app:layout_constraintEnd_toStartOf="@id/home_lottie_upArrow"
+        />
+    <!--    app:layout_constraintTop_toTopOf="parent"-->
+    <!--    app:lottie_enableMergePathsForKitKatAndAbove="true"-->
+    <!--    app:lottie_rawRes="@raw/loading_vaporize"-->
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/home_lottie_upArrow"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+
+        android:layout_marginHorizontal="12dp"
+        android:layout_marginVertical="6dp"
+        android:background="@drawable/round_retangle"
+        android:src="@drawable/ic_double_up_arrow"
+        android:padding="14dp"
+
+        app:layout_constraintTop_toTopOf="@id/home_searchview"
+        app:layout_constraintBottom_toBottomOf="@id/home_searchview"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+
+    <HorizontalScrollView
+        android:id="@+id/home_horizontalScrollview"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+
+        android:scrollbars="none"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/home_searchview"
+        >
+
+
+    <com.google.android.material.chip.ChipGroup
+        android:id="@+id/home_chipGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:background="@null"
+        android:elevation="1dp"
+        android:scrollbars="horizontal"
+        app:singleSelection="true"
+
+
+        >
+            <com.google.android.material.chip.Chip
+                android:id="@+id/home_chip_forBoys"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="@string/home_page_1"
+                android:layout_marginStart="7dp"
+                style="@style/my_custom_chip_style"
+
+                />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/home_chip_liveWallpapers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="@string/home_page_2"
+            android:layout_marginStart="7dp"
+            style="@style/my_custom_chip_style"
+            />
+
+
+    </com.google.android.material.chip.ChipGroup>
+    </HorizontalScrollView>
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottie_update"
+        android:layout_width="135dp"
+        android:layout_height="240dp"
+
+        app:lottie_rawRes="@raw/update"
+        android:elevation="2dp"
+        android:visibility="gone"
+        
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+    <TextView
+        android:id="@+id/home_txt_update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="@string/home_first_launch"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:layout_marginTop="15dp"
+        android:elevation="2dp"
+        android:visibility="gone"
+
+        app:layout_constraintTop_toBottomOf="@id/lottie_update"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+
+    <androidx.viewpager2.widget.ViewPager2
+
+        android:id="@+id/home_viewpagerbot"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/white"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/home_horizontalScrollview"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

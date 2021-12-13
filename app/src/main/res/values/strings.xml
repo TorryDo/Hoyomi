@@ -1,0 +1,159 @@
+<resources>
+    <string name="app_name">Hoyomi</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <!--    default  -->
+    <string name="package_name">com.torrydo.hoyomi</string>
+    <string name="ad_attribution">Ad</string>
+    <string name="dev_email">torrydo.mobile@gmail.com</string>
+    <string name="email_title_report_error">Hoyomi - Report error</string>
+    <string name="email_title_contact">Hoyomi - Contact</string>
+    <string name="home_page_1">Hot Wallpapers</string>
+    <string name="home_page_2">Live Wallpapers</string>
+    <string name="create_button">Create +</string>
+    <string name="view_all">All ></string>
+    <string name="preparing_resource">Preparing resource</string>
+    <string name="error">Error appear, sorry for the inconvenience :(</string>
+    <string name="updating">Updating…</string>
+
+
+    <!--    admob-->
+    <string name="interstitial_pic"></string>
+    <string name="interstitial_all"></string>
+    <string name="rewardAds"></string>
+    <string name="nativeAds_pic"></string>
+
+
+<!--    main Activity-->
+    <string name="warning_data">Mobile data is ON, please pay attention</string>
+    <string name="warning_required_internet">Please connect to the Internet and restart</string>
+
+    <!--    album Activity-->
+    <string name="album_title">Playlists</string>
+    <string name="question_delete_playlist">Delete this one ?</string>
+    <string name="question_warn_deleteplaylist">Once deleted, it cannot be undone, do you want to continue deleting ?</string>
+    <string name="button_negative_cancel">Cancel</string>
+    <string name="button_positive_ok">Delete</string>
+    <string name="howto_delete_playlist">- How to DELETE playlist ? -</string>
+    <string name="info_delete_playlist">- Long click to DELETE ! -</string>
+
+
+    <!--    autoset Activity-->
+    <string name="autoset_title">Auto Wallpaper</string>
+    <string name="text_image_number">quantity</string>
+    <string name="text_image_higher_than_3">wallpapers > 3 is required</string>
+    <string name="report_error">- Report Errors -</string>
+    <string name="cancel_repetition">cancel repetition</string>
+    <string name="no_cancel_repetition">no repetition be setted</string>
+    <string name="set_wallpaper">set Wallpaper</string>
+    <string name="storage">Storage"</string>
+    <string name="mobile_network">Mobile Network</string>
+    <string name="successful_setup">Successful Setup</string>
+    <string name="feature_not_stable">This function may be unstable due to the developer has just been broken up :(((</string>
+
+    <string name="order">Order</string>
+    <string name="random">Random</string>
+    <string name="time">Time</string>
+    <string name="notification">Notification"</string>
+    <string name="apply">Apply</string>
+
+    <string name="info_storage_or_internet">If there is enough space, we encourage you to use the mobile storage</string>
+
+
+    <!--    picture Activity-->
+    <string name="picture_not_available">this Wallpaper Not available now, try later</string>
+    <string name="picture_low_resolution_title">Medium Resolution</string>
+    <string name="picture_low_resolution_content">This wallpaper is not at the best resolution, wait a second or set/download now</string>
+    <string name="picture_low_resolution_bt_negative">Wait</string>
+    <string name="picture_low_resolution_bt_positive_download">Download now</string>
+    <string name="picture_low_resolution_bt_positive_set">Set</string>
+    <string name="picture_wait_a_sec">Wait a second</string>
+    <string name="xx_setwallpaper_title">Preparing</string>
+    <string name="xx_setwallpaper_content">Preparing</string>
+    <string name="xx_download_title">Downloading : </string>
+    <string name="xx_download_content">Donwloading</string>
+    <string name="download_successfully">Download successfully</string>
+    <string name="menu_create_playlist">-- Create a new library --</string>
+    <string name="menu_information">Information</string>
+    <string name="xx_display_playlist_created">Storage"</string>
+    <string name="xx_display_created_playlist_title">Created playlist</string>
+    <string name="xx_display_created_playlist_content">Have Fun :1"</string>
+    <string name="xx_display_button">OK</string>
+    <string name="xx_addimage_to_playlist">Have fun :3</string>
+    <string name="xx_addimage_button">OK</string>
+    <string name="cant_blank_of_exceed_25chars">title cannot be blank or exceed 25 characters"</string>
+
+
+    <!--    playlist Activity-->
+    <string name="menu_edit">- Edit -</string>
+    <string name="dialog_rename_title">Rename Playlist</string>
+    <string name="dialog_rename_button_negative">Cancel</string>
+    <string name="dialog_rename_button_positive">Rename</string>
+
+
+    <!--    search Activity -->
+    <string name="search_title">Search</string>
+    <string name="default_stag_search_name">search</string>
+    <string name="default_stag_search_title">title</string>
+    <string name="default_stag_search_feedsource">null</string>
+    <string name="warning_if_network_slow">Try switching between mobile data and Wi-Fi if you have problems loading images \n \nThanks for using my application</string>
+
+
+    <!--    about Activity-->
+
+
+
+    <!--    home Fragment-->
+    <string name="home_first_launch">updating… \n \nWhen finished, restarting may help the App run stably</string>
+    <!--    forBoys Fragment-->
+    <string name="warning_turnon_internet">Please turn Mobile network on and Restart</string>
+    <!--    forGirls Fragment-->
+    <!--    liveWallpaper Fragment-->
+    <!--    inside LiveWallpaper > video Fragment -->
+    <string name="xx_display_downloaded_title">Finished</string>
+    <string name="xx_display_downloaded_content">Have fun ^^</string>
+    <string name="xx_display_downloaded_button">OK</string>
+    <string name="sorry_update_later">update later, sorry for the invconvenience :(</string>
+
+    <!--    profile Fragment-->
+
+    <!--    profile Fragment-->
+    <!--    <string name="v1_support_dev_title">Support Developers</string>-->
+    <!--    <string name="v1_support_dev_content">so that we can maintain the application and develop in the future :1</string>-->
+    <string name="v1_support_dev_title">Upgrade to Pro</string>
+    <string name="v1_support_dev_content">not yet supported, sorry for the inconvenience</string>
+
+    <string name="v2_suggestions_contact_title">Suggestions &amp; Contact</string>
+    <string name="v2_suggestions_contact_content">your opinion is priceless to me</string>
+
+    <string name="v3_reviews_title">Rate our App</string>
+    <string name="v3_reviews_content">my life will be wonderful if I get a positive feedback</string>
+
+    <string name="v4_clear_title">Optimizing storage</string>
+    <string name="v4_clear_content">unnecessary data will be deleted</string>
+
+    <string name="v5_finally_title">And finally</string>
+    <string name="v5_finally_content">always be happy, have fun !</string>
+
+    <string name="v6_about_title">About</string>
+    <string name="v6_about_content">more information</string>
+
+    <!--    <string name="thanks_for_support">xúc động quá T_T, ngàn năm mí có 1 bạn ủng hộ T_T, chân thành cám ơn bạn :1</string>-->
+
+
+    <!--    dialog creator-->
+    <string name="creator_title">Create Playlist</string>
+    <string name="creator_edittext_hint">name</string>
+    <string name="creator_button_negative">Cancel</string>
+    <string name="creator_button_positive">Create</string>
+
+    <!--    bottom dialog-->
+    <string name="bottomdialog_addto_playlist">Add to Playlist</string>
+    <string name="bottomdialog_information">Information</string>
+
+    <!--    etc i dunno-->
+    <string name="delete_picture">Delete</string>
+</resources>

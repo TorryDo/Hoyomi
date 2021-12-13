@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/mainConstraint"
+    tools:context=".activities.MainActivity">
+
+
+
+        <nl.joery.animatedbottombar.AnimatedBottomBar
+            android:id="@+id/main_bottomNavView"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#FFF"
+
+            android:elevation="16dp"
+
+            app:abb_indicatorAppearance="round"
+            app:abb_indicatorColor="@color/main_color"
+
+            app:abb_indicatorHeight="4dp"
+
+            app:abb_indicatorMargin="16dp"
+            app:abb_selectedIndex="1"
+            app:abb_selectedTabType="text"
+            app:abb_tabColorSelected="@color/main_color"
+            app:abb_tabs="@menu/main_bottomnavview_menu"
+            app:layout_constraintBottom_toBottomOf="parent" />
+
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/main_viewPager2"
+            android:name="androidx.navigation.fragment.NavHostFragment"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+
+            app:layout_constraintBottom_toTopOf="@id/main_bottomNavView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:navGraph="@navigation/main_navigation" />
+
+        <androidx.fragment.app.FragmentContainerView
+            android:id="@+id/myFrame"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

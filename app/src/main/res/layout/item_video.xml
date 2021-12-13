@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:layout_gravity="center"
+            android:background="@color/black"
+            android:elevation="1dp"
+            android:scaleType="fitCenter"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/itemvid_lottie_ifinityLoad"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+
+        app:lottie_rawRes="@raw/ifinity_load"
+        android:elevation="2dp"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+
+        <VideoView
+            android:id="@+id/videoView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:alpha="0"
+            android:backgroundTint="@color/black"
+            android:fitsSystemWindows="true"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/dashboard"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginBottom="45dp"
+        android:alpha="0.6"
+        android:background="@drawable/blur_dashboard"
+        android:elevation="2dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        >
+
+        <ProgressBar
+            android:id="@+id/process"
+            android:layout_width="0dp"
+            android:layout_height="7dp"
+
+            android:backgroundTint="@color/black"
+            style="@style/roundProgress"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginBottom="5dp"
+            android:visibility="gone"
+
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/dash_GL_1_Horizontal"
+            />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/dash_GL_1_Horizontal"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.55"
+            />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/info"
+            android:layout_width="50dp"
+            android:layout_height="0dp"
+
+            android:src="@drawable/ic_info"
+            android:layout_margin="5dp"
+            android:padding="1dp"
+
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintTop_toTopOf="@id/dash_GL_1_Horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/download"
+            />
+
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/download"
+            android:layout_width="50dp"
+            android:layout_height="0dp"
+
+            android:src="@drawable/ic_download"
+            android:layout_margin="5dp"
+            android:padding="1dp"
+
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintTop_toTopOf="@id/dash_GL_1_Horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@id/info"
+            app:layout_constraintEnd_toStartOf="@id/minimize"
+            />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/minimize"
+            android:layout_width="50dp"
+            android:layout_height="0dp"
+
+            android:src="@drawable/ic_minimize"
+            android:layout_margin="5dp"
+            android:padding="1dp"
+
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintTop_toTopOf="@id/dash_GL_1_Horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/bottomTriangle"
+            app:layout_constraintStart_toEndOf="@id/download"
+            />
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/bottomTriangle"
+            android:layout_width="50dp"
+            android:layout_height="0dp"
+
+            android:src="@drawable/ic_bottom_triangle"
+            android:layout_margin="5dp"
+            android:padding="1dp"
+
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintTop_toTopOf="@id/dash_GL_1_Horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/minimize"
+            />
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

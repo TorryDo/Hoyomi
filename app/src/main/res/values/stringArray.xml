@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="livewallpapers">
+        <item>https://v.pinimg.com/videos/mc/720p/59/5c/25/595c250b4c804b5fb8d2ad76107b4955.mp4</item>
+        <item>https://v.pinimg.com/videos/mc/720p/ff/2e/a9/ff2ea964ae86ccb39d4cd87eaedf29dd.mp4</item>
+        <item>https://v.pinimg.com/videos/mc/720p/12/05/32/120532745e20513396035a0bad72a27b.mp4</item>
+        <item>https://v.pinimg.com/videos/mc/720p/8f/99/93/8f99936d364fb0d21b165212ebd3e4ff.mp4</item>
+
+    </string-array>
+</resources>

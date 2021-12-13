@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="350dp"
+
+    app:cardCornerRadius="@dimen/my_default_cornerRadius"
+    app:cardElevation="7dp"
+
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraint_autoset"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/item_autoset_GL_1_Horizontal"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.15" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/item_autoset_GL_2_Horizontal"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.8" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/item_autoset_GL_1_Vertical"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.4" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+
+            android:layout_marginStart="10dp"
+            android:gravity="top|start"
+            android:paddingStart="20dp"
+            android:paddingTop="10dp"
+            android:paddingEnd="0dp"
+            android:text="@string/app_name"
+            android:textColor="@color/black"
+            android:textSize="@dimen/title_text_size"
+            android:textStyle="bold"
+
+            app:layout_constraintBottom_toBottomOf="@id/item_autoset_GL_1_Horizontal"
+            app:layout_constraintEnd_toEndOf="@id/item_autoset_GL_1_Vertical"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <include
+            android:id="@+id/item_avatar"
+            layout="@layout/item_playlist"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+
+            android:layout_marginStart="10dp"
+
+            app:layout_constraintBottom_toBottomOf="@id/item_autoset_GL_2_Horizontal"
+            app:layout_constraintEnd_toEndOf="@id/item_autoset_GL_1_Vertical"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/item_autoset_GL_1_Horizontal"
+        />
+
+        <!--    hiển thị các tùy chọn   -->
+
+        <include
+            android:id="@+id/item_autoset_reuse1"
+            layout="@layout/reuse_option"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@id/item_autoset_GL_1_Vertical"
+            app:layout_constraintTop_toBottomOf="@id/item_autoset_GL_1_Horizontal" />
+
+        <include
+            android:id="@+id/item_autoset_reuse2"
+            layout="@layout/reuse_option"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@id/item_autoset_GL_1_Vertical"
+            app:layout_constraintTop_toBottomOf="@id/item_autoset_reuse1" />
+
+        <include
+            android:id="@+id/item_autoset_reuse3"
+            layout="@layout/reuse_option"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            android:visibility="gone"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@id/item_autoset_GL_1_Vertical"
+            app:layout_constraintTop_toBottomOf="@id/item_autoset_reuse2" />
+
+        <include
+            android:id="@+id/item_autoset_reuse4"
+            layout="@layout/reuse_option"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@id/item_autoset_GL_1_Vertical"
+            app:layout_constraintTop_toBottomOf="@id/item_autoset_reuse3" />
+
+        <!--    hiển thị các tùy chọn   -->
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/item_autoset_buttonSet"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+
+            android:layout_marginHorizontal="100dp"
+            android:layout_marginVertical="15dp"
+            android:background="@drawable/custom_maincolor_click"
+            android:elevation="16dp"
+            android:text="Start"
+            android:textColor="@color/black"
+            android:alpha="0.4"
+            android:enabled="false"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/item_autoset_GL_2_Horizontal" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/item_autoset_buttonSet_cancel"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+
+            android:layout_marginHorizontal="100dp"
+            android:layout_marginVertical="15dp"
+            android:background="@drawable/custom_alertcolor_click"
+            android:elevation="16dp"
+            android:text="Cancel"
+            android:textColor="@color/black"
+            android:visibility="gone"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/item_autoset_GL_2_Horizontal" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+</com.google.android.material.card.MaterialCardView>

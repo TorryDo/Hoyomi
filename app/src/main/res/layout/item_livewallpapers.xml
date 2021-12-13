@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+
+    android:layout_margin="10dp"
+    app:cardCornerRadius="@dimen/my_default_cornerRadius"
+    app:cardElevation="@dimen/image_elevation">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/itemImageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:backgroundTint="@color/white_blue"
+            android:scaleType="centerCrop" />
+
+        <ImageView
+            android:id="@+id/ribbon"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:alpha="0.7"
+            android:src="@drawable/ic_bookmark_ribbon"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/coin"
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+
+            android:layout_marginBottom="5dp"
+            android:src="@drawable/ic_crown_coin"
+
+            app:layout_constraintBottom_toBottomOf="@id/ribbon"
+            app:layout_constraintEnd_toEndOf="@id/ribbon"
+            app:layout_constraintStart_toStartOf="@id/ribbon"
+            app:layout_constraintTop_toTopOf="@id/ribbon" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="@string/updating"
+            android:textSize="15sp"
+            android:visibility="gone"
+
+            app:layout_constraintTop_toTopOf="@id/itemImageView"
+            app:layout_constraintBottom_toBottomOf="@id/itemImageView"
+            app:layout_constraintStart_toStartOf="@id/itemImageView"
+            app:layout_constraintEnd_toEndOf="@id/itemImageView"
+            />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.google.android.material.card.MaterialCardView>

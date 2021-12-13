@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:motion="http://schemas.android.com/apk/res-auto"
+    >
+
+    <Transition
+        motion:constraintSetEnd="@+id/start"
+        motion:constraintSetStart="@id/end"
+        motion:duration="100">
+       <KeyFrameSet>
+       </KeyFrameSet>
+<!--        <OnClick motion:targetId="@+id/picture_imageView" />-->
+    </Transition>
+
+    <ConstraintSet android:id="@+id/start">
+    </ConstraintSet>
+
+    <ConstraintSet android:id="@+id/end">
+        <Constraint
+            android:layout_height="0dp"
+            motion:layout_constraintStart_toStartOf="parent"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="0dp"
+            android:id="@+id/picture_Toolbar"
+            motion:layout_editor_absoluteY="56dp"
+            motion:layout_constraintTop_toBottomOf="@id/picture_GL_1z_Horizontal"
+            motion:layout_constraintBottom_toTopOf="parent" />
+        <Constraint
+            android:layout_height="0dp"
+            motion:layout_constraintStart_toStartOf="parent"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="0dp"
+            android:id="@+id/constraintLayout"
+            motion:layout_editor_absoluteY="751dp"
+            motion:layout_constraintTop_toBottomOf="parent"
+            motion:layout_constraintBottom_toTopOf="@id/picture_GL_2z_Horizontal" />
+    </ConstraintSet>
+</MotionScene>

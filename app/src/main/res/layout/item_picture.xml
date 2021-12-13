@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@+id/item_home_constraintLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:transitionName="homeFragment_and_pictureActivity"
+    >
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/itemRecycler_cardView"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="12dp"
+
+        android:layout_gravity="center"
+
+        app:cardElevation="@dimen/image_elevation"
+        app:cardCornerRadius="@dimen/image_round_corner"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        >
+
+
+        <ImageView
+            android:id="@+id/itemRecycler_imageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            />
+    </com.google.android.material.card.MaterialCardView>
+
+    <ImageView
+        android:id="@+id/itemRecycler_3dots"
+        android:layout_width="40dp"
+        android:layout_height="30dp"
+        android:src="@drawable/ic_menu_3_dots"
+
+        android:paddingTop="9dp"
+        android:paddingBottom="4dp"
+
+        app:layout_constraintEnd_toEndOf="@id/itemRecycler_cardView"
+        app:layout_constraintTop_toBottomOf="@id/itemRecycler_cardView"
+        />
+
+<!--    <include-->
+<!--        android:id="@+id/nativeAdmob"-->
+<!--        layout="@layout/native_ad"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="300dp"-->
+
+<!--        android:visibility="gone"-->
+
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        />-->
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="round_corner_fragmenthome_corner">16dp</dimen>
+    <dimen name="round_corner_fragmenthome_strokeWidth">1dp</dimen>
+    <dimen name="searchbar_radius">16dp</dimen>
+
+    <dimen name="my_default_cornerRadius">16dp</dimen>
+    <dimen name="image_round_corner">16dp</dimen>
+
+    <dimen name="fragment_home_linearLayout_elevation">30dp</dimen>
+    <dimen name="image_elevation">5dp</dimen>
+
+    <dimen name="default_icon_padding">14dp</dimen>
+    <dimen name="title_text_size">20sp</dimen>
+</resources>

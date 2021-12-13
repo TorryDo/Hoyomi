@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Hoyomi</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <!--    default  -->
+    <string name="package_name">com.torrydo.hoyomi</string>
+    <string name="ad_attribution">Ad</string>
+    <string name="dev_email">torrydo.mobile@gmail.com</string>
+    <string name="email_title_report_error">Hoyomi - Báo Lỗi</string>
+    <string name="email_title_contact">Hoyomi - Liên hệ</string>
+    <string name="home_page_1">Hot Wallpapers</string>
+    <string name="home_page_2">Live Wallpapers</string>
+    <string name="create_button">Tạo +</string>
+    <string name="view_all">Tất cả ></string>
+    <string name="preparing_resource">Đang tải</string>
+    <string name="error">Lỗi xuất hiện, xin lỗi vì sự bất tiện :(</string>
+    <string name="updating">Cập nhật …</string>
+
+
+    <!--    admob-->
+    <string name="interstitial_pic">deleted</string>
+    <string name="interstitial_all">deleted</string>
+    <string name="rewardAds">deleted</string>
+    <string name="nativeAds_pic">deleted</string>
+
+
+    <!--    main Activity-->
+    <string name="warning_data">dữ liệu di động đang bật, hãy chú ý</string>
+    <string name="warning_required_internet">Phiền bạn kết nối internet và khởi động lại app</string>
+
+    <!--    album Activity-->
+    <string name="album_title">Playlists</string>
+    <string name="question_delete_playlist">Xóa Playlist ?</string>
+    <string name="question_warn_deleteplaylist">sau khi xóa sẽ không thể hoàn tác, bạn muốn tiếp tục hong ?</string>
+    <string name="button_negative_cancel">Đóng</string>
+    <string name="button_positive_ok">Xóa</string>
+    <string name="howto_delete_playlist">- Cách xóa Playlist ? -</string>
+    <string name="info_delete_playlist">- Nhấn giữ playlist để xóa ! -</string>
+
+
+    <!--    autoset Activity-->
+    <string name="autoset_title">Auto Wallpaper</string>
+    <string name="text_image_number">số lượng</string>
+    <string name="text_image_higher_than_3">yêu cầu playlist trên 3 hình</string>
+    <string name="report_error">- Báo lỗi -</string>
+    <string name="cancel_repetition">cancel repetition</string>
+    <string name="no_cancel_repetition">no repetition be setted</string>
+    <string name="set_wallpaper">set Wallpapers</string>
+    <string name="storage">Bộ nhớ máy</string>
+    <string name="mobile_network">Internet</string>
+    <string name="successful_setup">thiết lập thành công</string>
+    <string name="feature_not_stable">chức năng Có Thể không ổn định vì tác giả mới chia tay :(((</string>
+
+    <string name="order">Thứ Tự</string>
+    <string name="random">Trình tự</string>
+    <string name="time">Thời gian</string>
+    <string name="notification">Thông báo</string>
+    <string name="apply">Áp dụng</string>
+
+    <string name="info_storage_or_internet">Tụi mình khuyến khích sử dụng bộ nhớ máy nếu đủ không gian</string>
+
+
+    <!--    picture Activity-->
+    <string name="picture_not_available">Hình nền hiện không có sẵn hoặc tốc độ tải chậm, phiền bạn thử lại sau</string>
+    <string name="picture_low_resolution_title">Độ phân giải trung bình</string>
+    <string name="picture_low_resolution_content">Hình nền chưa ở độ phân giải tốt nhất, chờ trong giây lát hoặc tải xuống/set hình nền ngay bây giờ</string>
+    <string name="picture_low_resolution_bt_negative">Đợi xíu</string>
+    <string name="picture_low_resolution_bt_positive_download">Tải xuống</string>
+    <string name="picture_low_resolution_bt_positive_set">Cài hình nền</string>
+    <string name="picture_wait_a_sec">Đợi một chút</string>
+    <string name="xx_setwallpaper_title">Chuẩn bị</string>
+    <string name="xx_setwallpaper_content">Chuẩn bị</string>
+    <string name="xx_download_title">Đang tải : </string>
+    <string name="xx_download_content">Đang tải</string>
+    <string name="download_successfully">Tải xuống thành công</string>
+    <string name="menu_create_playlist">-- Tạo Playlist mới --</string>
+    <string name="menu_information">Thông tin</string>
+    <string name="xx_display_playlist_created">Storage</string>
+    <string name="xx_display_created_playlist_title">Đã tạo playlist</string>
+    <string name="xx_display_created_playlist_content">Chúc bạn vui vẻ :1"</string>
+    <string name="xx_display_button">OK</string>
+    <string name="xx_addimage_to_playlist">Chúc bạn vui vẻ :3</string>
+    <string name="xx_addimage_button">OK</string>
+    <string name="cant_blank_of_exceed_25chars">Tiêu đề không thể trống hoặc vượt quá 25 kí tự</string>
+
+
+    <!--    playlist Activity-->
+    <string name="menu_edit">- Sửa -</string>
+    <string name="dialog_rename_title">Đổi tên Playlist</string>
+    <string name="dialog_rename_button_negative">Đóng</string>
+    <string name="dialog_rename_button_positive">Đổi tên</string>
+
+
+    <!--    search Activity -->
+    <string name="search_title">Tìm kiếm</string>
+    <string name="default_stag_search_name">tìm kiếm</string>
+    <string name="default_stag_search_title">Tiêu đề</string>
+    <string name="default_stag_search_feedsource">null</string>
+    <string name="warning_if_network_slow">Chuyển đổi giữa Wifi/Internet nếu bạn gặp vấn đề về kết nối \n \nCám ơn vì đã sử dụng ứng dụng của tụi mình :)</string>
+
+
+    <!--    about Activity-->
+
+
+    <!--    home Fragment-->
+    <string name="home_first_launch">Đang cập nhật… \n \nsau khi cập nhật xong, khởi động lại có thể sẽ giúp app hoạt động ổn định ^^</string>
+    <!--    forBoys Fragment-->
+    <string name="warning_turnon_internet">Phiền bạn kết nối mạng và khởi động lại app</string>
+    <!--    forGirls Fragment-->
+    <!--    liveWallpaper Fragment-->
+    <!--    inside LiveWallpaper > video Fragment -->
+    <string name="xx_display_downloaded_title">Hoàn thành</string>
+    <string name="xx_display_downloaded_content">Vui vẻ nhaa ^^</string>
+    <string name="xx_display_downloaded_button">OK</string>
+    <string name="sorry_update_later">mình sẽ cập nhật sau :(</string>
+
+    <!--    profile Fragment-->
+
+    <!--    profile Fragment-->
+    <!--    <string name="v1_support_dev_title">Support Developers</string>-->
+    <!--    <string name="v1_support_dev_content">so that we can maintain the application and develop in the future :1</string>-->
+    <string name="v1_support_dev_title">Nâng cấp lên Pro</string>
+    <string name="v1_support_dev_content">chưa được hỗ trợ, xin lỗi vì sự bất tiện :(</string>
+
+    <string name="v2_suggestions_contact_title">Góp ý &amp; Liên hệ</string>
+    <string name="v2_suggestions_contact_content">ý kiến của bạn là vô giá với mình :)</string>
+
+    <string name="v3_reviews_title">Đánh giá App</string>
+    <string name="v3_reviews_content">cuộc sống của mình sẽ thật tuỵt vời nếu nhận được những phản hồi tích cực :3</string>
+
+    <string name="v4_clear_title">Tối ưu bộ nhớ</string>
+    <string name="v4_clear_content">dữ liệu không cần thiết sẽ được xóa</string>
+
+    <string name="v5_finally_title">Và cuối cùng</string>
+    <string name="v5_finally_content">luôn luôn vui vẻ nhaa, ngày mới tốt lành !</string>
+
+    <string name="v6_about_title">About</string>
+    <string name="v6_about_content">thông tin thêm</string>
+
+    <!--    <string name="thanks_for_support">xúc động quá T_T, ngàn năm mí có 1 bạn ủng hộ T_T, chân thành cám ơn bạn :1</string>-->
+
+
+    <!--    dialog creator-->
+    <string name="creator_title">Tạo Playlist</string>
+    <string name="creator_edittext_hint">nhập tên playlist</string>
+    <string name="creator_button_negative">Đóng</string>
+    <string name="creator_button_positive">Tạo</string>
+
+    <!--    bottom dialog-->
+    <string name="bottomdialog_addto_playlist">Thêm vào Playlist</string>
+    <string name="bottomdialog_information">Thông tin</string>
+
+    <!--    etc i dunno-->
+    <string name="delete_picture">Xóa</string>
+</resources>

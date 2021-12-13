@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/home_liveWallpaperFragment">
+    <fragment
+        android:id="@+id/videoFragment"
+        android:name="com.torrydo.hoyomi.fragment.insideLiveWallpaper.VideoFragment"
+        android:label="fragment_video"
+        tools:layout="@layout/fragment_video" />
+    <fragment
+        android:id="@+id/home_liveWallpaperFragment"
+        android:name="com.torrydo.hoyomi.fragment.insideHome.home_liveWallpaperFragment"
+        android:label="fragment_home_livewallpaper"
+        tools:layout="@layout/fragment_home_livewallpaper" >
+        <action
+            android:id="@+id/action_home_liveWallpaperFragment_to_videoFragment"
+            app:destination="@id/videoFragment" />
+    </fragment>
+</navigation>
