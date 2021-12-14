@@ -1,19 +1,3 @@
-<html>
-<head>
-<!-- <link rel="stylesheet" href="D:\APP_Kotlin\PROJECT\Hoyomi_apk\colove\customizer.css"> -->
-<style>
-    .horizontal-list > li {
-        display: inline-block;
-        /* You can also add some margins here to make it look prettier */
-        margin-right: 20px;
-        zoom: 1;
-        *display: inline;
-        /* this fix is needed for IE7- */
-    }
-</style>
-</head>
-<body>
-
 # Hoyomi - Wallpaper app
 
 A very first android project which I created a long time ago .-.
@@ -32,9 +16,8 @@ A very first android project which I created a long time ago .-.
 
 ## II, App flows
 
-- at the first launch, the app has to download the data
-
-<img src="https://scontent.fsgn2-4.fna.fbcdn.net/v/t1.15752-9/s1080x2048/264137864_236046915312966_1062829981643714240_n.png?_nc_cat=109&ccb=1-5&_nc_sid=ae9488&_nc_ohc=FgAf3_XskN0AX86tsoU&tn=f7c2URYlgnWy24yO&_nc_ht=scontent.fsgn2-4.fna&oh=c73d4ed5f1fe19b5cc01ac8d2e7637a7&oe=61DC54AF" width=200>
+- at the first launch, the app has to download the data </br> </br>
+  <img src="https://scontent.fsgn2-4.fna.fbcdn.net/v/t1.15752-9/s1080x2048/264137864_236046915312966_1062829981643714240_n.png?_nc_cat=109&ccb=1-5&_nc_sid=ae9488&_nc_ohc=FgAf3_XskN0AX86tsoU&tn=f7c2URYlgnWy24yO&_nc_ht=scontent.fsgn2-4.fna&oh=c73d4ed5f1fe19b5cc01ac8d2e7637a7&oe=61DC54AF" width=200>
 
 - after the download succeed, there will be three main different screens</br>(I will hide the contents due to the security)
   <img src="https://scontent.fsgn2-6.fna.fbcdn.net/v/t1.15752-9/264014695_683543652635166_6847629257989021876_n.png?_nc_cat=110&ccb=1-5&_nc_sid=ae9488&_nc_ohc=w6kehk7Q8t4AX_omNhf&_nc_ht=scontent.fsgn2-6.fna&oh=03_AVLahRy_bXeDhcu6zgoJI3Lb5fpYrIYe9xpv3PbGFjwZHQ&oe=61DDB932">
@@ -59,6 +42,3 @@ January to March (2021)
 
 > Thanks for your time </br>
 > Have a nice day, sir
-
-</body>
-</html>
