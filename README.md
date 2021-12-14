@@ -41,17 +41,7 @@ A very first android project which I created a long time ago .-.
 
 - after the download succeed, there will be three main different screen</br>(I will hide the contents due to the security)
 
-<ul class="horizontal-list">
-    <li>
-        <img src="https://scontent.fsgn2-6.fna.fbcdn.net/v/t1.15752-9/s1080x2048/265281562_439133511186538_3184036998825086322_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=ae9488&_nc_ohc=uXVmY3NocRAAX9H-xqc&_nc_ht=scontent.fsgn2-6.fna&oh=89c08cb87bee6d4043f2e0b8e7131775&oe=61DCFA34" width=200>
-    </li>
-    <li>
-        <img src="https://scontent.fsgn2-5.fna.fbcdn.net/v/t1.15752-9/s1080x2048/264193429_306659577949313_3193327644142937872_n.png?_nc_cat=102&ccb=1-5&_nc_sid=ae9488&_nc_ohc=zoJV0hca60gAX-CI0Ia&_nc_ht=scontent.fsgn2-5.fna&oh=03_AVLsAy4jr5GKHrO5nLTaGKU5n6SBOP2Tog3ZQlo9dR9oGg&oe=61DCFFE2" width=200>
-    </li>
-    <li>
-        <img src="https://scontent.fsgn2-3.fna.fbcdn.net/v/t1.15752-9/s1080x2048/266501209_1430304940698804_7487226572326499040_n.png?_nc_cat=108&ccb=1-5&_nc_sid=ae9488&_nc_ohc=JbmTH6zMI1sAX_61Nfw&_nc_ht=scontent.fsgn2-3.fna&oh=03_AVK02gcJyLoPFidnAlbseKfJB97c9WOp17mkQ-e9U9hzeQ&oe=61DE5BAE" width=200>
-    </li>
-</ul>
+<img src="https://scontent.fsgn2-3.fna.fbcdn.net/v/t1.15752-9/263475827_1098902264194100_8633772871891918335_n.png?_nc_cat=106&ccb=1-5&_nc_sid=ae9488&_nc_ohc=THAjuCJwURAAX_eOQ8n&_nc_ht=scontent.fsgn2-3.fna&oh=03_AVKIWpkn415Ty9XJPFCeJE4fkXcJbBz-iYfJ3mvSW6CHNg&oe=61DC8342">
 
 - liveWallpaper screen & video player, download, etc...
 <ul class="horizontal-list">
