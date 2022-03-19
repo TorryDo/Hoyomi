@@ -37,8 +37,3 @@ A very first android project which I created a long time ago .-.
 ## III, Time consuming
 
 January to March (2021)
-
-## FINAL
-
-> Thanks for your time </br>
-> Have a nice day, sir
