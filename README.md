@@ -14,7 +14,11 @@ A very first android project which I created a long time ago .-.
 - Jsoup Library
 - etc
 
-## II, App flows
+## II, Time consuming
+
+January to March (2021)
+
+## III, App flows
 
 - at the first launch, the app has to download the data </br> </br>
   <img src="preview image/firstlaunch.png" width=200>
@@ -33,7 +37,3 @@ A very first android project which I created a long time ago .-.
 
 - Search screen. Narutoooo!!!
   <img src="preview image/search.png">
-
-## III, Time consuming
-
-January to March (2021)
