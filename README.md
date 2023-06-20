@@ -1,17 +1,17 @@
 # Hoyomi - Wallpaper app
 
-A very first android project which I created a long time ago .-.
+A very first Android Project which I created a long time ago .-.
 
-## I, Technology
+## I, Tech Stack
 
 - Android XML
-- Firebase DB | Room DB
+- Firebase DB, Room DB
 - Android Jetpack
 - Lifecycle/Activity Components library
-- Ads (I removed this feature in the public source)
-- Retrofit library
-- Lottie library
-- Jsoup Library
+- Admob/Ads (I removed this feature from the public repo)
+- Retrofit
+- Lottie
+- Jsoup
 - etc
 
 ## II, Time consuming
